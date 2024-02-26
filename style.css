@@ -1,0 +1,162 @@
+body {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal; 
+    background-color: #ADD8E6; 
+    color: #ffffff; 
+    text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black; 
+    margin: 0;
+    padding: 0;
+    text-align: justify
+}
+
+
+
+
+.banner {
+    background-image: url(images/NPR\ image.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 170px 0;
+    text-align: bottom;
+    text-align: center;
+    text-overflow: clip;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.btn-red {
+    background-color: #ffffff;
+    color: rgb(235, 24, 24);
+    padding: 20px 48px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+a:hover{
+    color: rgb(56, 138, 215);
+}
+
+
+.scroll-downs {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000000;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .mousey {
+    display: block;
+    width: 25px;
+    height: 45px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    position: relative;
+    margin: 0 auto 20px;
+  }
+  
+  .scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #000000;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: scroll 2s infinite;
+  }
+  
+  @keyframes scroll {
+    0% { opacity: 0; }
+    40% { opacity: 1; }
+    80% { opacity: 0; }
+    100% { top: 25px; }
+  }
+
+
+header h1, h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    font-size: 2em;
+    color: #cd0808;
+    text-align: center;
+   
+}
+
+
+
+section {
+    padding: 40px 20px;
+    border-bottom: 1px solid #000000;
+}
+
+
+
+
+#NPR1, #NPR2, #How-did-it-start, #NPR4 {
+    margin: 20px 0;
+}
+
+
+#NPR1, #NPR2, #How-did-it-start, #NPR4 {
+    line-height: 1.6;
+}
+
+
+
+
+.fa-instagram:hover {
+    font-size: 40px;
+    margin: 10px;
+    color: #9b0cbb;
+    transition: transform 0.3s ease;
+}
+
+
+.fa-instagram:hover {
+    transform: scale(5.2);
+    text-align: center;
+}
+
+
+
+
+footer {
+    background-color: #656060;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 0px 0px;
+    }
+
+
+    header h1 {
+        font-size: 3em;
+        color: black;
+
+
+    }
+}
